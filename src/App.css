@@ -40,13 +40,15 @@ h5 {
 .card-body{
   border: rgba(44, 102, 209, 1) solid 1px;
   border-radius: 10px;
-  margin: 15px;
+  margin: 15px 5px;
   padding-top: 10px;
 }
 
 
 .card-header {
   padding-bottom: 0px !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
   border: none !important;
 }
 
