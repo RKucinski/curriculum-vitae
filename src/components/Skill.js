@@ -9,7 +9,7 @@ class Skill extends Component {
     return (
       <div>
         <ListGroupItem>
-          <ListGroupItemHeading><strong>{this.props.title}</strong></ListGroupItemHeading>
+          <ListGroupItemHeading><b>{this.props.title}</b></ListGroupItemHeading>
           {this.props.text}
         </ListGroupItem>
       </div>

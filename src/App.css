@@ -27,6 +27,11 @@ li {
 h3 {
   background-color: rgba(44, 102, 209, 1);
   border-radius: 10px;
+  font-size: 2rem !important;
+}
+
+h5 {
+  font-size: 1.4rem !important;
 }
 .skillsList h3 {
   background-color: rgba(44, 102, 209, 1) !important;
@@ -39,12 +44,14 @@ h3 {
   padding-top: 10px;
 }
 
+
 .card-header {
   padding-bottom: 0px !important;
+  border: none !important;
 }
 
 .card-text {
-  margin-left: 15px;
+  margin-left: 20px;
   font-size: 1.1rem;
 }
 .card-text ul{
@@ -56,7 +63,7 @@ strong {
 }
 
 .sousprojet {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 li {
@@ -76,6 +83,10 @@ li {
   justify-content: space-evenly;
   display: flex;
   align-items: center;
+}
+
+.skill{
+  color: rgb(88, 223, 233);
 }
 
 /* BEGIN HeadCV.js */
@@ -142,6 +153,11 @@ li {
 .card-header span{
   float: right;
   font-size: 1.1rem;
+  font-style: italic;
+}
+
+.card-header strong {
+  font-size: 1.3rem;
 }
 
 .card {

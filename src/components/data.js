@@ -27,19 +27,6 @@ const data = {
               <li className="sousprojet">Technos : <b>React.js, Redux ou Context, Node.js, MongoDB, Melon.js</b></li>
               <li className="sousprojet">Site web + Jeu + Dossier CNC</li>
             </ul>
-
-
-          // <p>Premier projet : <a href="http://www.alba-interactive.com/">Portfolio d'élèves</a>  <br></br>
-          //   <span className="sousprojet">Technos: Bootstrap 4 </span><br></br>
-          //   Deuxième projet : "" Jeu sur le thème de Harry Potter, inspiré de l'ancêtre Bomberman. <br></br>
-          //   <span className="sousprojet">Technos: React.js et sans Redux (imposé)</span><br></br>
-          //   Troisième projet : en cours. <br></br>
-          //   <span className="sousprojet">
-          //     Site communautaire autour d'un jeu développé avec le framework Melon.js. <br></br>
-          //     Technos : React.js, Redux ou Context, Node.js, MongoDB, Melon.js.<br></br>
-          //     Site web + Jeu + Dossier CNC
-          //   </span>
-          // </p>
         },
         {
           header: <p><strong>AXA Asssistance France, Lyon.</strong> <span>9 ans : 06/2009 à 08/2018</span></p>,
@@ -77,9 +64,9 @@ const data = {
             <ul>
               <li>HTML 5</li>
               <li>CSS 3</li>
-              <li><strong>JavaScript ES6</strong></li>
-              <li><strong>React.js</strong></li>
-              <li><strong>Node.js</strong></li>
+              <li><strong className="skill">JavaScript ES6</strong></li>
+              <li><strong className="skill">React.js</strong></li>
+              <li><strong className="skill">Node.js</strong></li>
               <li>Redux/Context</li>
               <li>Bootstrap 4</li>
               <li>NoSQL</li>
@@ -92,14 +79,14 @@ const data = {
           title: "Soft Skills",
           skill:
             <ul>
-              <li><strong>Créativité</strong></li>
+              <li><strong className="skill">Créativité</strong></li>
               <li>Empathie</li>
               <li>Aisance sociale</li>
-              <li><strong>Esprit d'équipe</strong></li>
+              <li><strong className="skill">Esprit d'équipe</strong></li>
               <li>Positivisme</li>
               <li>Communication orale</li>
               <li>Communication écrite</li>
-              <li><strong>Adaptabilité</strong></li>
+              <li><strong className="skill">Adaptabilité</strong></li>
               <li>Anglais</li>
               <li>Apprendre à apprendre / Ami de Google</li>
             </ul>,
@@ -185,9 +172,9 @@ const data = {
             <ul>
               <li>HTML 5</li>
               <li>CSS 3</li>
-              <li><strong>JavaScript ES6</strong></li>
-              <li><strong>React.js</strong></li>
-              <li><strong>Node.js</strong></li>
+              <li><strong className="skill">JavaScript ES6</strong></li>
+              <li><strong className="skill">React.js</strong></li>
+              <li><strong className="skill">Node.js</strong></li>
               <li>Redux/Context</li>
               <li>Bootstrap 4</li>
               <li>NoSQL</li>
@@ -200,14 +187,14 @@ const data = {
           title: "Soft Skills",
           skill:
             <ul>
-              <li><strong>Creativity</strong></li>
+              <li><strong className="skill">Creativity</strong></li>
               <li>Empathy</li>
               <li>Social fluency</li>
-              <li><strong>Team spirit</strong></li>
+              <li><strong className="skill">Team spirit</strong></li>
               <li>Positivism</li>
               <li>Oral communication</li>
               <li>Written communication</li>
-              <li><strong>Adaptability</strong></li>
+              <li><strong className="skill">Adaptability</strong></li>
               <li>French</li>
               <li>Fast learner / Google friend</li>
             </ul>,
