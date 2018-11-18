@@ -15,9 +15,9 @@ const data = {
           title: "Etudiant promotion JavaScript",
           text:
             <ul>
-              <li>Premier projet : <a href="http://www.alba-interactive.com/">Portfolio d'élèves</a></li>
+              <li>Premier projet : <a href="http://www.alba-interactive.com/" target="blank">Portfolio d'élèves</a></li>
               <li className="sousprojet">Technos: <b>Bootstrap 4</b></li>
-              <li>Deuxième projet : "Potter Clash"</li>
+              <li>Deuxième projet : <a href="https://rkucinski.github.io/Potter-Clash/" target="blank">Potter Clash</a></li>
               <li className="sousprojet">Jeu sur le thème d'Harry Potter</li>
               <li className="sousprojet">Technos: <b>React.js</b> et sans Redux (imposé)</li>
               <li>Hackathon : Halloween </li>
